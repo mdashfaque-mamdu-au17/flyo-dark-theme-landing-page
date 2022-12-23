@@ -1,8 +1,14 @@
-import { useState } from 'react';
+import Link from './components/Button/Link';
 
 function App() {
-  const [count, setCount] = useState(0);
-  return <div className="text-green-300">hello world</div>;
+  return (
+    <div className="text-center">
+      <Link type="navigation">Sign in</Link>
+      <div className="mt-10">
+        <Link type="navigation-footer">About</Link>
+      </div>
+    </div>
+  );
 }
 
 export default App;
