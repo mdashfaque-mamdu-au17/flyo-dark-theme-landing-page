@@ -1,6 +1,7 @@
 import Button from './components/Button/Button';
 import Link from './components/Button/Link';
-
+import { ArrowIcon } from './components/Button/Icons';
+import Arrow from './assets/icon-arrow.svg';
 function App() {
   return (
     <div className="text-center">

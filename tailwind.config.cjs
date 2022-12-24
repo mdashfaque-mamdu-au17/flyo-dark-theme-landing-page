@@ -9,6 +9,9 @@ module.exports = {
         'primary-cyan': '#63E1D9',
         'dark-cyan': '#8ADAE3',
       },
+      boxShadow: {
+        '3xl': '2px 3px 6px rgba(0, 0, 0, 0.15925);',
+      },
     },
   },
   plugins: [],
