@@ -1,7 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Paragraph from '../Texts/Paragraph';
 import Satish from '../../assets/profile-1.jpg';
-const TestimonialCard = () => {
+const TestimonialCard = (props) => {
+  const { review, photo, name, profession } = props;
   return (
     <div className="bg-secondary-black rounded pt-6 pb-[22px] px-[20px] max-w-[280px] shadow-4xl md:max-w-[360px] md:pt-10 md:pb-[26px] md:pl-[26px] md:pr-6">
       <div className="text-left pb-[17px] md:pb-6">
@@ -27,6 +29,13 @@ const TestimonialCard = () => {
       </div>
     </div>
   );
+};
+
+TestimonialCard.propTypes = {
+  review: PropTypes.string.isRequired,
+  photo: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  profession: PropTypes.string.isRequired,
 };
 
 export default TestimonialCard;
