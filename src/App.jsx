@@ -6,6 +6,7 @@ import Heading from './components/Texts/Heading';
 import Paragraph from './components/Texts/Paragraph';
 import FeatureCard from './components/Card/FeatureCard';
 import TestimonialCard from './components/Card/TestimonialCard';
+import FormBox from './components/Sections/FormBox';
 function App() {
   return (
     <div className="text-center">
@@ -72,6 +73,10 @@ function App() {
 
       <div className="mt-10 mx-12">
         <TestimonialCard />
+      </div>
+
+      <div className="mt-10 mx-5 lg:mx-0">
+        <FormBox />
       </div>
     </div>
   );
