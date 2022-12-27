@@ -12,7 +12,9 @@ const Button = (props) => {
   };
   if (btnType === 'primary') {
     return (
-      <button className={classNames(applyStyle())}>{props.children}</button>
+      <button className={classNames(applyStyle())} type={props.type}>
+        {props.children}
+      </button>
     );
   }
   if (btnType === 'secondary') {
