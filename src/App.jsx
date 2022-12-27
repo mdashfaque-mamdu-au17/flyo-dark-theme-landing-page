@@ -5,6 +5,7 @@ import Arrow from './assets/icon-arrow.svg';
 import Heading from './components/Texts/Heading';
 import Paragraph from './components/Texts/Paragraph';
 import FeatureCard from './components/Card/FeatureCard';
+import TestimonialCard from './components/Card/TestimonialCard';
 function App() {
   return (
     <div className="text-center">
@@ -67,6 +68,10 @@ function App() {
 
       <div className="mt-10">
         <FeatureCard width="w-[64px] h-[60px] md:w-[84px] md:h-[78px]" />
+      </div>
+
+      <div className="mt-10 mx-12">
+        <TestimonialCard />
       </div>
     </div>
   );
