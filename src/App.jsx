@@ -66,7 +66,7 @@ function App() {
       </div>
 
       <div className="mt-10">
-        <FeatureCard />
+        <FeatureCard width="w-[64px] h-[60px] md:w-[84px] md:h-[78px]" />
       </div>
     </div>
   );
