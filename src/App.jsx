@@ -4,6 +4,7 @@ import { ArrowIcon } from './components/Button/Icons';
 import Arrow from './assets/icon-arrow.svg';
 import Heading from './components/Texts/Heading';
 import Paragraph from './components/Texts/Paragraph';
+import FeatureCard from './components/Card/FeatureCard';
 function App() {
   return (
     <div className="text-center">
@@ -62,6 +63,10 @@ function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </Paragraph>
+      </div>
+
+      <div className="mt-10">
+        <FeatureCard />
       </div>
     </div>
   );
