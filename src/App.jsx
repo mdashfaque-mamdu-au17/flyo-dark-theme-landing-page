@@ -7,9 +7,12 @@ import Paragraph from './components/Texts/Paragraph';
 import FeatureCard from './components/Card/FeatureCard';
 import TestimonialCard from './components/Card/TestimonialCard';
 import FormBox from './components/Sections/FormBox';
+import Navbar from './components/Sections/Navbar';
 function App() {
   return (
-    <div className="text-center">
+    <div className="">
+      <Navbar />
+
       <Link type="navigation">Sign in</Link>
       <div className="mt-10">
         <Link type="navigation-footer">About</Link>
