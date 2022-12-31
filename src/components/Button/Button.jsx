@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 const Button = (props) => {
-  const { btnType } = props;
+  const { btnType, styles } = props;
   const applyStyle = () => {
     if (btnType === 'primary') {
       // btn-primary is custom css class
@@ -12,7 +12,7 @@ const Button = (props) => {
   };
   if (btnType === 'primary') {
     return (
-      <button className={classNames(applyStyle())} type={props.type}>
+      <button className={classNames(applyStyle(), styles)} type={props.type}>
         {props.children}
       </button>
     );
