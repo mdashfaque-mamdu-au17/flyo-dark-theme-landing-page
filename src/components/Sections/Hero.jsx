@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="hidden md:block max-w-[1440px] mx-auto pt-[114px]">
             <img src={BgCurvyDesktop} alt="" />
           </div>
-          {/* <div className="absolute bottom-0 w-full h-10 bg-primary-black"></div> */}
+          <div className="hidden md:block absolute bottom-0 w-full h-6 xl:h-9 bg-primary-black"></div>
         </div>
       </div>
     </section>
