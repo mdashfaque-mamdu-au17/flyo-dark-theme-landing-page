@@ -9,11 +9,13 @@ import TestimonialCard from './components/Card/TestimonialCard';
 import FormBox from './components/Sections/FormBox';
 import Navbar from './components/Sections/Navbar';
 import Hero from './components/Sections/Hero';
+import FeaturesSection from './components/Sections/FeaturesSection';
 function App() {
   return (
     <div className="">
       <Navbar />
       <Hero />
+      <FeaturesSection />
       {/* <Link type="navigation">Sign in</Link>
       <div className="mt-10">
         <Link type="navigation-footer">About</Link>
