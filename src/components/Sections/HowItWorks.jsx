@@ -34,7 +34,7 @@ const HowItWorks = () => {
               colleagues for live collaboration. No email attachments required.
             </Paragraph>
           </div>
-          <div className="pt-4">
+          <div className="pt-4 xl:pt-6">
             <button className="group flex gap-[7px] items-center text-xs leading-4 text-[#62E0D9] border-b-[1px] border-b-[#62E0D9] hover:text-white hover:border-b-white md:text-base md:leading-[22px]">
               <span>See how Fylo works</span>
               <span className="">
