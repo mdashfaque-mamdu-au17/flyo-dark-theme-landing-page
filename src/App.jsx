@@ -10,12 +10,14 @@ import FormBox from './components/Sections/FormBox';
 import Navbar from './components/Sections/Navbar';
 import Hero from './components/Sections/Hero';
 import FeaturesSection from './components/Sections/FeaturesSection';
+import HowItWorks from './components/Sections/HowItWorks';
 function App() {
   return (
     <div className="">
       <Navbar />
       <Hero />
       <FeaturesSection />
+      <HowItWorks />
       {/* <Link type="navigation">Sign in</Link>
       <div className="mt-10">
         <Link type="navigation-footer">About</Link>
