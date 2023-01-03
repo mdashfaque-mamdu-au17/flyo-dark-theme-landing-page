@@ -18,11 +18,11 @@ const TestimonialsSection = () => {
             name="Satish Patel"
             profession="Founder & CEO, Huddle"
           />
-          <div className="absolute -top-5 left-1 z-10 xl:-top-11 xl:-left-2.5">
+          <div className="absolute -top-5 left-1 z-10 xl:-top-9 xl:-left-2.5">
             <img
               src={Quote}
               alt=""
-              className="w-6 h-6 xl:w-[55px] xl:h-[55px] z-10"
+              className="w-6 h-6 xl:w-[55px] xl:h-[45px] z-10"
             />
           </div>
         </div>
