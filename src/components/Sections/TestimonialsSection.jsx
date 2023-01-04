@@ -7,7 +7,7 @@ import Quote from '../../assets/bg-quotes.png';
 
 const TestimonialsSection = () => {
   return (
-    <section className="pt-[160px] max-w-[1180px] mx-auto lg:pt-[179px]">
+    <section className="pt-[160px] pb-[337px] max-w-[1180px] mx-auto lg:pt-[179px] lg:pb-[360px]">
       <div className="flex flex-wrap justify-center gap-6 xl:gap-10">
         <div className="relative z-30">
           <TestimonialCard
