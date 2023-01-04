@@ -10,9 +10,11 @@ module.exports = {
         'light-dark': '#1B2330',
         'creame-white': '#FFFFFF',
         'primary-cyan': '#63E1D9',
+        'secondary-cyan': '#62E0D9',
         'dark-cyan': '#8ADAE3',
         'light-gray': '#C0C0C0',
         'primary-red': '#FF4242',
+        'primary-violet': '#0B1524',
       },
       boxShadow: {
         '3xl': '2px 3px 6px rgba(0, 0, 0, 0.15925);',
