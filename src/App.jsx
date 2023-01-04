@@ -12,6 +12,7 @@ import Hero from './components/Sections/Hero';
 import FeaturesSection from './components/Sections/FeaturesSection';
 import HowItWorks from './components/Sections/HowItWorks';
 import TestimonialsSection from './components/Sections/TestimonialsSection';
+import Footer from './components/Sections/Footer';
 function App() {
   return (
     <div className="">
@@ -20,6 +21,7 @@ function App() {
       <FeaturesSection />
       <HowItWorks />
       <TestimonialsSection />
+      <Footer />
       {/* <Link type="navigation">Sign in</Link>
       <div className="mt-10">
         <Link type="navigation-footer">About</Link>
