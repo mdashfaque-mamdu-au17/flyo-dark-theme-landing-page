@@ -17,20 +17,20 @@ const Footer = () => {
   const linkStyle =
     'group w-7 h-7 rounded-full border-[1px] border-white  flex items-center justify-center text-white hover:border-secondary-cyan cursor-pointer md:w-8 md:h-[31px]';
   return (
-    <footer className="pt-[259px] pb-[52px] bg-primary-violet relative">
+    <footer className="pt-[259px] pb-[52px] bg-primary-violet relative lg:pt-[169px]">
       <div className="absolute -top-[177px] left-1/2 transform -translate-x-1/2  w-[336px] md:w-[750px] lg:w-[863px]">
         <FormBox />
       </div>
 
       <div className="px-7 xl:max-w-[1240px] mx-auto">
-        <div className="pb-[35px]">
+        <div className="pb-[35px] lg:pb-[52px]">
           <img src={Logo} alt="" className="w-[108px] h-[31px]" />
         </div>
 
         {/* box 1 */}
         <div>
-          <div>
-            <div>
+          <div className="lg:flex lg:justify-between">
+            <div className="max-w-[379px]">
               <div className="flex gap-4 pb-4">
                 <div className="w-6 h-6 flex items-center justify-start grow shrink-0">
                   <LocationIcon />
@@ -64,20 +64,20 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex flex-col gap-4 pt-14">
+            <div className="flex flex-col gap-4 pt-14 lg:pt-0">
               <Link type="navigation-footer">About Us</Link>
               <Link type="navigation-footer">Jobs</Link>
               <Link type="navigation-footer">Press</Link>
               <Link type="navigation-footer">Blog</Link>
             </div>
 
-            <div className="flex flex-col gap-4 pt-12">
+            <div className="flex flex-col gap-4 pt-12 lg:pt-0">
               <Link type="navigation-footer">Contact Us</Link>
               <Link type="navigation-footer">Terms</Link>
               <Link type="navigation-footer">Privacy</Link>
             </div>
 
-            <div className="pt-14 flex justify-center gap-[9px] items-center">
+            <div className="pt-14 flex justify-center gap-[9px] items-center lg:pt-0 lg:items-start lg:gap-2.5">
               <a className={classNames(linkStyle)}>
                 <FacebookIcon />
               </a>
