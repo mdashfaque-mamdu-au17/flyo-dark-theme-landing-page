@@ -4,7 +4,7 @@ import Logo from '../../assets/logo.svg';
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-30">
+    <nav>
       <div className="bg-secondary-black pt-6 md:pt-[73px]">
         <div className="pl-5 pr-6 flex justify-between items-center max-w-screen-xl mx-auto 2xl:pl-0 2xl:pr-0">
           <div>
