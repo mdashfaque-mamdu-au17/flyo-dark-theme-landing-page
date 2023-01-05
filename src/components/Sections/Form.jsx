@@ -23,16 +23,13 @@ const Form = () => {
   };
   const formSubmit = (event) => {
     event.preventDefault();
-    console.log('form submitted');
     if (!email.match(mailRegex)) {
       setEmailError(true);
       return;
     }
-    console.log(email);
     setEmailError(false);
     setEmail('');
   };
-  console.log(emailError);
   return (
     <form
       onSubmit={formSubmit}
